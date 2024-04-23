@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stop Watch</title>
+</head>
+
+<body>
+
+    <!-- Main container for the stopwatch -->
+    <div id="clock">
+        
+        <!-- Timer screen section -->
+        <div id="timerScreen">
+            
+            <!-- Runner section to display current time -->
+            <div id="runner">
+                00:00
+            </div>
+            
+            <!-- Laps portion to display lap times -->
+            <div id="lapsPortion">
+                
+                <!-- Individual lap display -->
+                <div id="lap">
+                    <p>lap 00.00</p>
+                </div>
+                
+            </div>
+            
+            <!-- Best lap section to display the best lap time -->
+            <div id="bestLap">
+                <h3>Best Lap</h3>
+                <span>lap 00:00</span>
+            </div>
+        </div>
+        
+        <!-- Timer button container for start, stop, and reset buttons -->
+        <div id="timerBtnContainer">
+            <button>Start</button>
+            <button>Stop</button>
+            <button>Reset</button>
+        </div>
+    </div>
+
+    <!-- Linking external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
